@@ -1,2 +1,2 @@
 # Lab 1
-Renato César Alves de Oliveira
+Tarefas do laboratório 1 - Renato César Alves de Oliveira
