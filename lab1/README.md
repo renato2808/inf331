@@ -1,6 +1,24 @@
 # Lab 1
 Tarefas do laboratório 1 - Renato César Alves de Oliveira
 
-## Tarefa 1
+# Projeto Orange / Regras de Associação para Foodmart
 
-Como pode ser observado nas imagens food_mart_wine.png e food_mart_beer.png, procurei encontrar regras que relacionacem a compra de Vinho e Cerveja por consumidores a outros produtos, de modo que o mercado possa posicionar os produtos de acordo com o comportamento de compra do cliente. É possível notar que a compra de vinho está fortemente ligada a compra de queijos, frutas frescas e sopas, enquanto a compra de Cerveja está fortemente ligada a compra de chocolate e queijo.
+## Imagens do Projeto
+
+### Projeto Orange - Food Mart
+
+![Projeto Orange - Food Mart](images/food_mart.png)
+
+### Regra Associação Vinho - Food Mart
+
+![Regra Associação Vinho - Food Mart](images/food_mart_wine.png)
+
+### Regra Associação Cerveja - Food Mart
+
+![Regra Associação Cerveja - Food Mart](images/food_mart_beer.png)
+
+## Arquivo do Projeto
+[Arquivo Orange](https://github.com/renato2808/inf331/blob/master/lab1/orange/food_mart.ows)
+
+Como pode ser observado nas imagens Regra Associação Vinho e Regra Associação Cerveja, procurei encontrar regras que relacionacem a compra de Vinho e Cerveja por consumidores a outros produtos, de modo que o mercado possa posicionar os produtos de acordo com o comportamento de compra do cliente. É possível notar que a compra de vinho está fortemente ligada a compra de queijos, frutas frescas e sopas, enquanto a compra de Cerveja está fortemente ligada a compra de chocolate e queijo.
+
