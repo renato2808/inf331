@@ -53,9 +53,9 @@ O primeiro gráfico mostra qual é a probabilidade de um aplicativo de determina
 
 ### Diagrama de Componentes
 
-![Diagrama de Componentes Pedido] images/diagrama_componentes_pedido.png)
+![Diagrama de Componentes Pedido](images/diagrama_componentes_pedido.png)
 
 ### Diagrama de Interfaces
 
-![Diagrama de Interfaces Pedido] images/diagrama_interface_pedido.png)
+![Diagrama de Interfaces Pedido](images/diagrama_interface_pedido.png)
 
