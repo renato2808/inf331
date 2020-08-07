@@ -48,3 +48,14 @@ Como pode ser observado nas imagens Regra Associação Vinho e Regra Associaçã
 ## Análise
 
 O primeiro gráfico mostra qual é a probabilidade de um aplicativo de determinada categoria ter um certo rating. Como é possível observar, os aplicativos de finanças tem alta probabilidade de ter ratings baixos (3 ou menos), já os aplicativos de comunicação tem grande probabilidade de terem ratings altos (maiores que 4). O segundo gráfico, ou mosaico, mostra como os preços dos aplicativos afetam no rating. Como é possivel observar, quanto maior o rating maior a participação de aplicativos pagos (faixas laranja, verde e vermelha no mosaico).
+
+## Projeto de Composição de Componentes para Pedido
+
+### Diagrama de Componentes
+
+![Diagrama de Componentes Pedido] images/diagrama_componentes_pedido.png)
+
+### Diagrama de Interfaces
+
+![Diagrama de Interfaces Pedido] images/diagrama_interface_pedido.png)
+
