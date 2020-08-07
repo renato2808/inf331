@@ -18,7 +18,28 @@ Tarefas do laboratório 1 - Renato César Alves de Oliveira
 ![Regra Associação Cerveja - Food Mart](images/food_mart_beer.png)
 
 ## Arquivo do Projeto
-[Arquivo Orange](https://github.com/renato2808/inf331/blob/master/lab1/orange/food_mart.ows)
+[Arquivo Orange - Foodmart](https://github.com/renato2808/inf331/blob/master/lab1/orange/food_mart.ows)
 
 Como pode ser observado nas imagens Regra Associação Vinho e Regra Associação Cerveja, procurei encontrar regras que relacionacem a compra de Vinho e Cerveja por consumidores a outros produtos, de modo que o mercado possa posicionar os produtos de acordo com o comportamento de compra do cliente. É possível notar que a compra de vinho está fortemente ligada a compra de queijos, frutas frescas e sopas, enquanto a compra de Cerveja está fortemente ligada a compra de chocolate e queijo.
+
+# Projeto Orange / Análise de Dados do Google PlayStore
+
+## Imagens do Projeto
+
+### Projeto Orange - Google Playstore
+
+![Projeto Orange - Google Playstore](images/google_playstore.png)
+
+## Arquivo do Projeto
+[Arquivo Orange - Google Playstore](https://github.com/renato2808/inf331/blob/master/lab1/orange/google_playstore.ows)
+
+## Gráfico(s) de Análise
+
+### Gráfico Rating por Categoria
+
+![Grafico Playstore 1](images/google_playstore_chart_1.png)
+
+### Grafico/Mosaico Preço por Rating
+
+![Grafico Playstore 2](images/google_playstore_chart_2.png)
 
