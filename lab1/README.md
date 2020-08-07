@@ -20,6 +20,8 @@ Tarefas do laboratório 1 - Renato César Alves de Oliveira
 ## Arquivo do Projeto
 [Arquivo Orange - Foodmart](https://github.com/renato2808/inf331/blob/master/lab1/orange/food_mart.ows)
 
+## Análise
+
 Como pode ser observado nas imagens Regra Associação Vinho e Regra Associação Cerveja, procurei encontrar regras que relacionacem a compra de Vinho e Cerveja por consumidores a outros produtos, de modo que o mercado possa posicionar os produtos de acordo com o comportamento de compra do cliente. É possível notar que a compra de vinho está fortemente ligada a compra de queijos, frutas frescas e sopas, enquanto a compra de Cerveja está fortemente ligada a compra de chocolate e queijo.
 
 # Projeto Orange / Análise de Dados do Google PlayStore
@@ -35,7 +37,7 @@ Como pode ser observado nas imagens Regra Associação Vinho e Regra Associaçã
 
 ## Gráfico(s) de Análise
 
-### Gráfico Rating por Categoria
+### Gráfico Probabilidade de Rating por Categoria
 
 ![Grafico Playstore 1](images/google_playstore_chart_1.png)
 
@@ -43,3 +45,6 @@ Como pode ser observado nas imagens Regra Associação Vinho e Regra Associaçã
 
 ![Grafico Playstore 2](images/google_playstore_chart_2.png)
 
+## Análise
+
+O primeiro gráfico mostra qual é a probabilidade de um aplicativo de determinada categoria ter um certo rating, como é possível observar, os aplicativos de finaças tem alta probabilidade de ter ratings baixos (3 ou menos), já os aplicativos de comuniação tem grande probabilidade de terem ratings altos (maiores que 4). O segundo gráfico, ou mosaico, mostra como os praçoes dos aplicativos afetam no rating, como é possivel observar,quanto maior a faixa do rating, maior a particpação de aplicativos pagos (faixas laranja, verde e vermelha no mosaico)
