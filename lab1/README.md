@@ -22,7 +22,7 @@ Tarefas do laboratório 1 - Renato César Alves de Oliveira
 
 ## Análise
 
-Como pode ser observado nas imagens Regra Associação Vinho e Regra Associação Cerveja, procurei encontrar regras que relacionacem a compra de Vinho e Cerveja por consumidores a outros produtos, de modo que o mercado possa posicionar os produtos de acordo com o comportamento de compra do cliente. É possível notar que a compra de vinho está fortemente ligada a compra de queijos, frutas frescas e sopas, enquanto a compra de Cerveja está fortemente ligada a compra de chocolate e queijo.
+Como pode ser observado nas imagens Regra Associação Vinho e Regra Associação Cerveja, procurei encontrar regras que relacionacem a compra de Vinho e Cerveja por consumidores a outros produtos, de modo que o mercado possa posicionar os produtos de acordo com o comportamento de compra do cliente. É possível notar que a compra de vinho está fortemente ligada a compra de queijos, frutas frescas e sopas, enquanto a compra de Cerveja está fortemente ligada a compra de chocolate e queijo. Desse modo, esses dados podem guiar o dono de supermercados ou mercados no posicionamento desses produtos próximos uns aos outros, a fim de induzir uma maior venda dos mesmos.
 
 # Projeto Orange / Análise de Dados do Google PlayStore
 
@@ -47,7 +47,7 @@ Como pode ser observado nas imagens Regra Associação Vinho e Regra Associaçã
 
 ## Análise
 
-O primeiro gráfico mostra qual é a probabilidade de um aplicativo de determinada categoria ter um certo rating. Como é possível observar, os aplicativos de finanças tem alta probabilidade de ter ratings baixos (3 ou menos), já os aplicativos de comunicação tem grande probabilidade de terem ratings altos (maiores que 4). O segundo gráfico, ou mosaico, mostra como os preços dos aplicativos afetam no rating. Como é possivel observar, quanto maior o rating maior a participação de aplicativos pagos (faixas laranja, verde e vermelha no mosaico).
+O primeiro gráfico mostra qual é a probabilidade de um aplicativo de determinada categoria ter um certo rating. Como é possível observar, os aplicativos de finanças tem alta probabilidade de ter ratings baixos (3 ou menos), já os aplicativos de comunicação tem grande probabilidade de terem ratings altos (maiores que 4). O segundo gráfico, ou mosaico, mostra como os preços dos aplicativos afetam o rating, ou seja, como fato de um aplicativo ser pago ou não afeta no rating. Como é possivel observar, quanto maior o rating maior a o número de aplicativos pagos (faixas laranja, verde e vermelha no mosaico).
 
 ## Projeto de Composição de Componentes para Recomendação
 
