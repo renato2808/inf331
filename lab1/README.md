@@ -57,7 +57,7 @@ O primeiro gráfico mostra qual é a probabilidade de um aplicativo de determina
 
 ### Diagrama de Componentes
 
-![Diagrama de Componentes Fluxo](images/diagrama_componentes_fluxo.png)
+![Diagrama de Componentes Fluxo](images/diagrama_componentes_pedido_fluxo.png)
 
 ### Diagrama de Interfaces
 
