@@ -5,7 +5,7 @@ Tarefas do laboratório 2 - Renato César Alves de Oliveira
 [Notebook Tarefa Componentes](https://github.com/renato2808/inf331/blob/master/lab2/components-01-catalog.ipynb)
 
 ## Tarefa Web Components 1
-
+~~~html
 <dcc-trigger label="Mundo P"
              action="world/politics"
              value="Israel chega a acordo para normalizar relações com Emirados Árabes e suspende anexação de áreas na Cisjordânia
@@ -55,5 +55,6 @@ Jogadores integraram elenco B que disputou o Campeonato Baiano no início do ano
   <subscribe-dcc topic="brazil/sports"></subscribe-dcc>
   <subscribe-dcc topic="bahia/sports"></subscribe-dcc>
 </dcc-lively-talk>
+~~~
 
 ## Tarefa Web Components 2
