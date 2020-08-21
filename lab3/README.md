@@ -11,4 +11,4 @@ Tarefas do laboratório 3 - Renato César Alves de Oliveira
 
 ## Tarefa 4
 
-[Github Equipe 08](https://github.com/inf331equipe08)
+[Github Equipe 08](https://github.com/inf331equipe08/marketplace)
