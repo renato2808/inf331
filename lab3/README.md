@@ -8,3 +8,7 @@ Tarefas do laboratório 3 - Renato César Alves de Oliveira
 ## Tarefa 2
 
 ![Diagrama de Componentes Leilao](images/fluxo_leilao.png)
+
+## Tarefa 4
+
+[Github Equipe 08](https://github.com/inf331equipe08)
