@@ -778,6 +778,7 @@ X-Ratelimit-Remaining: 9
 X-Ratelimit-Reset: 1598216717
 X-Request-Id: 6cbcd3f92186baecc3d292a5e368d1e3
 X-Xss-Protection: 1; mode=block
+~~~
 * **Conteúdo da resposta**:
 ~~~json
 [
