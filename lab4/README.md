@@ -18,7 +18,7 @@ Tarefas do laboratório 4 - Renato César Alves de Oliveira
 ### Serviço 1
 
 * **Título do serviço**: Spotify
-* **Breve descrição**: Serviço que recebe o codigo de um artista/banda e retorna as músicas mais populares desse artista em determinado país. Na busca abaixo, as músicas mais populares da banda Queen no Brasil são retornadas.
+* **Breve descrição**: Serviço que recebe o codigo de um artista/banda e retorna as músicas mais populares desse artista em determinado país. Na busca abaixo, as 10 músicas mais populares da banda Queen no Brasil são retornadas.
 * **URL completa da requisição**: https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d/top-tracks?country=BR
 * **Cabeçalho HTTP da chamada**:
 ~~~http
@@ -737,3 +737,314 @@ x-robots-tag: noindex, nofollow
   } ]
 }
 ~~~
+
+### Serviço 2
+
+* **Título do serviço**: CORONAVIRUS COVID19 API
+* **Breve descrição**: Seerviço que retorna a quantidade de casos de coronavirus ativos em um país desde o day one de coleta.
+* **URL completa da requisição**: https://api.covid19api.com/live/country/brazil
+* **Cabeçalho HTTP da chamada**:
+~~~http
+User-Agent: PostmanRuntime/7.26.2
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 20332858-3dcd-4df3-971c-6d921c38a6c1
+Host: api.covid19api.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+~~~
+* **Cabeçalho HTTP da resposta**:
+~~~http
+Server: openresty/1.15.8.2
+Date: Sun, 23 Aug 2020 21:05:12 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 590
+Connection: keep-alive
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Strict-Transport-Security: max-age=5184000; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: 
+Access-Control-Expose-Headers: Content-Length
+Content-Encoding: gzip
+Vary: Origin
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Ratelimit-Limit: 10
+X-Ratelimit-Remaining: 9
+X-Ratelimit-Reset: 1598216717
+X-Request-Id: 6cbcd3f92186baecc3d292a5e368d1e3
+X-Xss-Protection: 1; mode=block
+* **Conteúdo da resposta**:
+~~~json
+[
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 22318,
+        "Deaths": 1230,
+        "Recovered": 173,
+        "Active": 20915,
+        "Date": "2020-04-13T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 23430,
+        "Deaths": 1328,
+        "Recovered": 173,
+        "Active": 21929,
+        "Date": "2020-04-14T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 25262,
+        "Deaths": 1532,
+        "Recovered": 14026,
+        "Active": 9704,
+        "Date": "2020-04-15T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 28912,
+        "Deaths": 1760,
+        "Recovered": 14026,
+        "Active": 13126,
+        "Date": "2020-04-16T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 30683,
+        "Deaths": 1947,
+        "Recovered": 14026,
+        "Active": 14710,
+        "Date": "2020-04-17T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 34221,
+        "Deaths": 2171,
+        "Recovered": 14026,
+        "Active": 18024,
+        "Date": "2020-04-18T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 36760,
+        "Deaths": 2368,
+        "Recovered": 14026,
+        "Active": 20366,
+        "Date": "2020-04-19T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 38654,
+        "Deaths": 2462,
+        "Recovered": 22130,
+        "Active": 14062,
+        "Date": "2020-04-20T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 40743,
+        "Deaths": 2587,
+        "Recovered": 22130,
+        "Active": 16026,
+        "Date": "2020-04-21T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 43079,
+        "Deaths": 2741,
+        "Recovered": 24325,
+        "Active": 16013,
+        "Date": "2020-04-22T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 45757,
+        "Deaths": 2906,
+        "Recovered": 25318,
+        "Active": 17533,
+        "Date": "2020-04-23T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 49492,
+        "Deaths": 3313,
+        "Recovered": 26573,
+        "Active": 19606,
+        "Date": "2020-04-24T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 54043,
+        "Deaths": 3704,
+        "Recovered": 27655,
+        "Active": 22684,
+        "Date": "2020-04-25T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 59196,
+        "Deaths": 4045,
+        "Recovered": 29160,
+        "Active": 25991,
+        "Date": "2020-04-26T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 62859,
+        "Deaths": 4271,
+        "Recovered": 30152,
+        "Active": 28436,
+        "Date": "2020-04-27T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 66501,
+        "Deaths": 4543,
+        "Recovered": 31142,
+        "Active": 30816,
+        "Date": "2020-04-28T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 101826,
+        "Deaths": 7051,
+        "Recovered": 42991,
+        "Active": 51784,
+        "Date": "2020-05-04T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 107844,
+        "Deaths": 7328,
+        "Recovered": 45815,
+        "Active": 54701,
+        "Date": "2020-05-05T00:00:00Z"
+    },
+    {
+        "Country": "Brazil",
+        "CountryCode": "BR",
+        "Province": "",
+        "City": "",
+        "CityCode": "",
+        "Lat": "-14.24",
+        "Lon": "-51.93",
+        "Confirmed": 115455,
+        "Deaths": 7938,
+        "Recovered": 48221,
+        "Active": 59296,
+        "Date": "2020-05-06T00:00:00Z"
+    }
+]
+~~~json
