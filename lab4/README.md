@@ -741,10 +741,11 @@ x-robots-tag: noindex, nofollow
 ### Serviço 2
 
 * **Título do serviço**: CORONAVIRUS COVID19 API
-* **Breve descrição**: Seerviço que retorna a quantidade de casos de coronavirus ativos em um país desde o day one de coleta.
+* **Breve descrição**: Serviço que retorna a quantidade de casos de coronavirus ativos em um país desde o day one de coleta.
 * **URL completa da requisição**: https://api.covid19api.com/live/country/brazil
 * **Cabeçalho HTTP da chamada**:
 ~~~http
+GET https://api.covid19api.com/live/country/brazil
 User-Agent: PostmanRuntime/7.26.2
 Accept: */*
 Cache-Control: no-cache
