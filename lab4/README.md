@@ -18,8 +18,8 @@ Tarefas do laboratório 4 - Renato César Alves de Oliveira
 ### Serviço 1
 
 * **Título do serviço**: Spotify
-* **Breve descrição**: Serviço que recebe o codigo de um artista e retorna as músicas mais populares desse artiste em determinado país.
-* **URL completa da requisição**: ttps://any-api.com:8443/https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d/top-tracks?country=BR
+* **Breve descrição**: Serviço que recebe o codigo de um artista/banda e retorna as músicas mais populares desse artista em determinado país. Na busca abaixo, as músicas mais populares da banda Queen no Brasil são retornadas.
+* **URL completa da requisição**: https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d/top-tracks?country=BR
 * **Cabeçalho HTTP da chamada**:
 ~~~http
 Request URL: https://any-api.com:8443/https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d/top-tracks?country=BR
