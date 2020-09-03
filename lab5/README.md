@@ -5,10 +5,8 @@ Tarefas do laboratório 5 - Renato César Alves de Oliveira
 ![Diagrama de Subcomponentes](images/subcomponentes_checkout.jpg)
 
 ## Tarefa 2
-Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io/renato2808/pen/KKzXeMB)
+Link para o projeto no Codepen: [React 03 - Dinossauro Codepen](https://codepen.io/renato2808/pen/KKzXeMB)
 
-> Coloque o código do seu componente:
->
 **HTML**
 ~~~html
 <div id="root"></div>
