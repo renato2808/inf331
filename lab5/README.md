@@ -61,7 +61,7 @@ class Elemento extends React.Component {
                    {this.renderOption(2)}
                    <div className="status">
                       <br></br>
-                      <div>O dinossauro esta: {status}</div>
+                      <div>O dinossauro está: {status}</div>
                    </div>
                  </div>
             );
