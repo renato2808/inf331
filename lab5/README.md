@@ -5,7 +5,7 @@ Tarefas do laboratório 5 - Renato César Alves de Oliveira
 ![Diagrama de Subcomponentes](images/subcomponentes_checkout.jpg)
 
 ## Tarefa 2
-Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io/santanche/pen/KKzmbwR)
+Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io/renato2808/pen/KKzXeMB)
 
 > Coloque o código do seu componente:
 >
@@ -16,20 +16,60 @@ Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io
 
 **JavaScript**
 ~~~javascript
-class Barra extends React.Component {
+function Button(props) {
+  return (
+    <button className="button" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+}
+
+class Elemento extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      options: ["Pulou na lama", "Pulou no lago.", "Pulou no mar."],
+      state: ""
+    };
+  }
+  
+  renderOption(i) {
+    return <Button value={this.state.options[i]}
+             onClick={() => this.handleClick(i)} />;
+  }
+  
+  handleClick(i) {
+    if (i == 0){
+      this.setState({state: "Sujo"})
+    }
+    
+    if (i == 1){
+      this.setState({state: "Molhado"})
+    }
+    
+    if (i == 2){
+      this.setState({state: "Afogado"})
+    }
+  }
+  
   render() {
-    let resultado = "";
-    for (let b = 1; b <= this.props.tamanho; b++)
-      resultado += "=";
-    return resultado;
+    let status;
+    status = this.state.state;
+          return (
+                 <div className="elemento">
+                   <h2>O dinossauro :</h2>
+                   {this.renderOption(0)}
+                   {this.renderOption(1)}
+                   {this.renderOption(2)}
+                   <div className="status">
+                      <br></br>
+                      <div>O dinossauro esta: {status}</div>
+                   </div>
+                 </div>
+            );
   }
 }
 
-const elemento = <div>
-                   <h2>O dinossauro</h2>
-                   <Barra tamanho="10"/>
-                   <h2>pulou na lama.</h2>
-                 </div>
-ReactDOM.render(elemento, 
+ReactDOM.render(<Elemento />, 
         document.getElementById("root"));
 ~~~
