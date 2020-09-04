@@ -5,7 +5,7 @@ Tarefas do laboratório 5 - Renato César Alves de Oliveira
 ![Diagrama de Subcomponentes](images/subcomponentes_checkout.jpg)
 
 ## Tarefa 2
-Link para o projeto no Codepen: [React 03 - Dinossauro Codepen](https://codepen.io/renato2808/pen/KKzXeMB)
+Link para o projeto no Codepen: [Tarefa 2 React - Dinossauro Codepen](https://codepen.io/renato2808/pen/KKzXeMB)
 
 **HTML**
 ~~~html
